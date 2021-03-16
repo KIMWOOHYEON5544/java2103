@@ -67,6 +67,13 @@ public class Day2 {
 		int result = 10 < 5 ? 100 : 0;
 		System.out.println(result);
 		
+		
+		
+		//web이 안 생겨서 coding을 바꿀 수가 없습니다
+		
+		
+		
+		
 	}
 
 }
