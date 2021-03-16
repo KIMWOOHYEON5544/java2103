@@ -64,16 +64,41 @@ public class Day2 {
 		
 		//삼항연산자
 		//결과변수 = 조건식 ? 참일때 값 : 거짓일 때 값 
-		int result = 10 < 5 ? 100 : 0;
-		System.out.println(result);
+//		int result = 10 < 5 ? 100 : 0;
+//		System.out.println(result);
 		
 		
 		
-		//web이 안 생겨서 coding을 바꿀 수가 없습니다
+//		//web이 안 생겨서 coding을 바꿀 수가 없습니다
+//		
+//		int age = 7;
+//		if(age >= 8)
+//		System.out.println("학교에 다닙니다.");
+//		else System.out.println("학교에 다니지 않습니다.");
+//		
 		
 		
+		int age = 9;
+		int charge;
+		if(age < 8)       
+			charge = 1000;      
+		    System.out.println("미취학아동");
 		
+		else if(age < 14); 
+			charge = 2000;      
+			System.out.println("초등학생");
+		    
+		    
+        else if(age < 20);       
+					charge = 2500;      
+				    System.out.println("고등학생");
+		    
+		    
+	    else;      
+						charge = 3000;      
+					    System.out.println("성인");
 		
+		System.out.println("입장료는 " + charge + "원입니다.");
 	}
 
 }
