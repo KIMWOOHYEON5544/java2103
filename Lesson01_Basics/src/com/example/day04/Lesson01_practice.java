@@ -19,33 +19,50 @@ public class Lesson01_practice {
 		
 		//입장요금 계산하기
 		
-		int age = 29;
-		int charge;
+//		int age = 29;
+//		int charge;
+//		
+//		if(age < 8) {
+//			charge = 1000;
+//			System.out.println("미취학아동");
+//		}
+//		else if(age < 14) {
+//			charge = 2000;
+//			System.out.println("초등학생");
+//		}
+//		else if(age < 20) {
+//			charge = 3000;
+//			System.out.println("중,고등학생");
+//		}
+//		else {
+//			charge = 4000;
+//			System.out.println("성인");
+//		}
+//		System.out.println("입장료는" + charge + "원입니다.");
+//		
+//		
 		
-		if(age < 8) {
+		
+		//메달 수여하기
+		
+		int age = 1;
+		int charge = 0;
+		switch(age) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
 			charge = 1000;
-			System.out.println("미취학아동");
-		}
-		else if(age < 14) {
+			break;
+		case 8 : 
 			charge = 2000;
-			System.out.println("초등학생");
+			break;
 		}
-		else if(age < 20) {
-			charge = 3000;
-			System.out.println("중,고등학생");
-		}
-		else {
-			charge = 4000;
-			System.out.println("성인");
-		}
-		System.out.println("입장료는" + charge + "원입니다.");
 		
-		
-		
-		
-		
-		
-		
+		System.out.println(charge);
 		
 		
 		
